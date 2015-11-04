@@ -3,7 +3,7 @@ class CreateStories < ActiveRecord::Migration
     create_table :stories do |t|
       t.string :title
       t.string :link
-      t.number :upvotes
+      t.integer :upvotes
       t.string :category
 
       t.timestamps null: false

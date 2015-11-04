@@ -8,7 +8,28 @@
 </head>
 <body>
 
-<%= yield %>
+<div>
+	<h1>
+		<%= link_to 'Rewsly Logo', root_path %>
+	</h1>
+</div>
+
+<div>
+	<nav>
+		<ul>
+			<li>
+				<%= link_to 'Log in', root_path %>
+			</li>
+			<li>
+				<%= link_to 'Sign up', root_path %>
+			</li>
+		</ul>
+	</nav>
+</div>
+
+<div>
+	<%= yield %>
+</div>
 
 </body>
 </html>
